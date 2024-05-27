@@ -1,0 +1,100 @@
+
+body {padding-left: 11em;
+font-family: verdana,
+arial, serif;
+color: #333333;
+background-color: #AC8968;
+margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{      
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{ 
+    background-color: grey;
+}
+
+.navbar li{
+    float: left;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: hsl(0, 0%, 25%) ;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styled-table tbody  {
+    background-color: #f3f3f3;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr.active-row {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+h1 {
+font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif }
+    ul.navbar li {
+background: white;
+margin: 0.5em 0;
+padding: 0.3em;
+border-right: 1em solid black }
+
+ul.navbar a {
+text-decoration: none }
+
+a:link {
+color: white }
+
+a:visited {
+color: lightblue }
+
+address {
+margin-top: 1em;
+padding-top: 1em;
+border-top: thin dotted }
